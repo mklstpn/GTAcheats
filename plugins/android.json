@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "ru.gtacheat.slapps"
+    },
+    "cordova-plugin-admob-free": {
+      "PLAY_SERVICES_VERSION": "11.0.4",
+      "PACKAGE_NAME": "ru.gtacheat.slapps"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-promise-polyfill": {
+      "PACKAGE_NAME": "ru.gtacheat.slapps"
+    },
+    "cordova-admob-sdk": {
+      "PLAY_SERVICES_VERSION": "11.0.4",
+      "PACKAGE_NAME": "ru.gtacheat.slapps"
+    }
+  }
+}

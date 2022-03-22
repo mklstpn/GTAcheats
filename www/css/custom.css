@@ -1,0 +1,89 @@
+.menu-link {
+	color: #666 !important;
+	font-weight: 400;
+	text-align: left;
+	text-indent: 5%;
+	height: 4em !important;
+	line-height: 4em !important;
+}
+
+.side-head {
+	background-color: #000000;
+	height: 7em;
+	margin-top: -2em;
+	margin-bottom: 1em;
+}
+
+.head-title {
+	padding-top: 3em;
+	margin-left: 20%;
+	font-size: 1.2em;
+	color: #f2f2f2;
+}
+
+.cheat-info {
+	margin-bottom: 60px;
+}
+
+.game-list {
+	margin-bottom: 60px;
+}
+
+.panel {
+	width: 270px; // just change this value (default: 260px)
+}
+
+body.with-panel-left-cover .panel-left {
+	-webkit-transform: translate3d(270px, 0, 0); // and these
+	-ms-transform: translate3d(270px, 0, 0);
+	transform: translate3d(270px, 0, 0);
+}
+
+.panel.panel-left.panel-cover {
+	z-index: 6000;
+	left: -270px; // and this
+}
+
+.cheat {
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: bold;
+}
+
+i.icon.icon-xbox {
+	width: 24px;
+	height: 24px;
+	margin: auto;
+	background-image: url("../img/xbox.svg");
+}
+
+i.icon.icon-ps {
+	width: 24px;
+	height: 24px;
+	margin: auto;
+	background-image: url("../img/ps.svg");
+}
+
+i.icon.icon-pc {
+	width: 24px;
+	height: 24px;
+	margin: auto;
+	background-image: url("../img/pc.svg");
+}
+
+i.icon.icon-menu {
+	width: 24px;
+	height: 24px;
+	background-image: url("../img/menu.svg");
+}
+
+.alertPulse-css {
+	animation: alertPulse 2s ease-out;
+	animation-iteration-count: infinite;
+	opacity: 1;
+	background: #357a38;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 1.3em;
+	padding: 0.2em;
+}
